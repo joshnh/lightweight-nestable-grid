@@ -1,7 +1,7 @@
 Lightweight Nestable Grid
 =========================
 
-__A lightweight, mobile first grid.__
+__A lightweight, nestable, mobile first grid.__
 
 To use the grid you will need a parent element with a class of `grid`. Columns are then implemented by using a class equal to the desired percentage width (`grid__col--{width}`). When nesting, you will need to use the `grid` class on each grid's parent. Use dedicated elements for your grid for best performance.
 
