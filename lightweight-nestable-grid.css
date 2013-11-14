@@ -8,8 +8,6 @@
 	[class*="grid__col--"] {
 		display: inline-block;
 		vertical-align: top;
-		zoom: 1; /* Fix for IE7 */
-		*display: inline; /* Fix for IE7 */
 		-webkit-box-sizing: border-box; /* Enables the use of padding without breaking the grid */
 		   -moz-box-sizing: border-box;
 			box-sizing: border-box;
