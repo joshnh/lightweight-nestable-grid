@@ -1,12 +1,10 @@
-.grid {
-	margin: 0 -.75em;
-}
-[class*="grid__col--"] {
-	padding: 0 .75em;
-}
 @media (min-width: 40em) { /* 640px */
+	.grid {
+		margin: 0 -.75em;
+	}
 	[class*="grid__col--"] {
 		display: inline-block;
+		padding: 0 .75em;
 		vertical-align: top;
 		-webkit-box-sizing: border-box; /* Enables the use of padding without breaking the grid */
 		   -moz-box-sizing: border-box;
