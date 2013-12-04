@@ -9,20 +9,20 @@ Also, and this is _important_, due to the use of inline-block you will need to c
 
 The available widths are:
 
-| Width  | Class             |
-| ------ | ----------------  |
-| 20%    | `.grid__col--20`  |
-| 25%    | `.grid__col--25`  |
-| 30%    | `.grid__col--30`  |
-| 33.3%  | `.grid__col--33`  |
-| 40%    | `.grid__col--40`  |
-| 50%    | `.grid__col--50`  |
-| 60%    | `.grid__col--60`  |
-| 66.6%  | `.grid__col--66`  |
-| 70%    | `.grid__col--70`  |
-| 75%    | `.grid__col--75`  |
-| 80%    | `.grid__col--80`  |
-| 100%   | `.grid__col--100` |
+| Width | Class             |
+| ----- | ----------------  |
+| 20%   | `.grid__col--20`  |
+| 25%   | `.grid__col--25`  |
+| 30%   | `.grid__col--30`  |
+| 33%   | `.grid__col--33`  |
+| 40%   | `.grid__col--40`  |
+| 50%   | `.grid__col--50`  |
+| 60%   | `.grid__col--60`  |
+| 67%   | `.grid__col--67`  |
+| 70%   | `.grid__col--70`  |
+| 75%   | `.grid__col--75`  |
+| 80%   | `.grid__col--80`  |
+| 100%  | `.grid__col--100` |
 
 Live demo: http://codepen.io/joshnh/pen/f2d2f034c97f4d6d89c47955c3b92f8d
 
