@@ -12,11 +12,13 @@ $columns: 20, 30, 33, 40, 50, 60, 67, 70, 80;
 		-webkit-box-sizing: border-box; /* Enables the use of padding without breaking the grid */
 		   -moz-box-sizing: border-box;
 		        box-sizing: border-box;
+
+		&.grid {
+			margin: 0;
+			padding: 0;
+		}
 	}
-	.grid[class*="grid__col--"] {
-		margin: 0;
-		padding: 0;
-	}
+	
 	@each $column in $columns {
 		.grid__col--#{$column} {
 			width: $column * 1%;
