@@ -1,0 +1,25 @@
+$baseline: 1.5em;
+$columns: 20, 30, 33, 40, 50, 60, 67, 70, 80;
+
+@media (min-width: 40em) { /* 40 × 16px = 640px */
+    .grid {
+        margin: 0 (($baseline / 2) * -1);
+    }
+    [class*="grid__col--"] {
+        display: inline-block;
+        padding: 0 ($baseline / 2);
+        vertical-align: top;
+        -webkit-box-sizing: border-box; /* Enables the use of padding without breaking the grid */
+           -moz-box-sizing: border-box;
+                box-sizing: border-box;
+    }
+    .grid[class*="grid__col--"] {
+        margin: 0;
+        padding: 0;
+    }
+    @each $column in $columns {
+	      .grid__col--#{$column} {
+            width: $column * 1%;
+	      }
+    }
+}
