@@ -8,7 +8,7 @@
 		vertical-align: top;
 		-webkit-box-sizing: border-box;
 		   -moz-box-sizing: border-box;
-			box-sizing: border-box; /* Enables the use of padding without breaking the grid */
+		        box-sizing: border-box; /* Enables the use of padding without breaking the grid */
 	}
 	.grid[class*="grid__col--"] {
 		margin: 0;
