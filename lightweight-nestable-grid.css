@@ -1,11 +1,11 @@
 @media (min-width: 40em) { /* 40 × 16px = 640px */
 
 	.grid {
-		margin: 0 -.75em;
+		margin: 0 -0.75em;
 	}
 	[class*="grid__col--"] {
 		display: inline-block;
-		padding: 0 .75em;
+		padding: 0 0.75em;
 		vertical-align: top;
 		-webkit-box-sizing: border-box;
 		   -moz-box-sizing: border-box;
