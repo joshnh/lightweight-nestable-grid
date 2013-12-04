@@ -30,14 +30,14 @@ Example markup:
 <div class="grid">
 	<div class="grid  grid__col--67">
 		<div class="grid__col--50">
-			Content
+			…
 		</div>
 		<div class="grid__col--50">
-			Content
+			…
 		</div>
 	</div>
 	<div class="grid__col--33">
-		Content
+		…
 	</div>
 </div>
 ~~~
