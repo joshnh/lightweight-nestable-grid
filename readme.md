@@ -31,12 +31,12 @@ Example markup:
 	<div class="grid  grid__col--67">
 		<div class="grid__col--50">
 			…
-		</div>
-		<div class="grid__col--50">
+		</div><!--
+	 --><div class="grid__col--50">
 			…
 		</div>
-	</div>
-	<div class="grid__col--33">
+	</div><!--
+ --><div class="grid__col--33">
 		…
 	</div>
 </div>
