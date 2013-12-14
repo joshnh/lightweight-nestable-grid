@@ -1,7 +1,8 @@
 $baseline: 1.5em;
 $columns: 20, 30, 33, 40, 50, 60, 67, 70, 80;
+$min-width: 40em; /* 40 × 16px = 640px */
 
-@media (min-width: 40em) { /* 40 × 16px = 640px */
+@media (min-width: $min-width) {
 
 	.grid {
 		margin: 0 (($baseline / 2) * -1);
