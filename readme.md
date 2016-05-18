@@ -1,7 +1,9 @@
-Lightweight Nestable Grid
-=========================
+Lan Grid System
+===============
 
-__A lightweight, nestable, mobile first grid.__
+__Lightweight & Nestable__
+
+![Lan Grid System Logo](http://joshnh.com/langrid/logo.png)
 
 To use the grid you will need a parent element with a class of `grid`. Columns are then implemented by using a class equal to the desired percentage width (`grid__col--{width}`). When nesting, you will need to use the `grid` class on each grid's parent. For best performance, keep your grid abstracted by using dedicated elements.
 
