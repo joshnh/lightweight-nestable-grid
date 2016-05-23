@@ -46,4 +46,6 @@ Example markup:
 
 Live demo: http://codepen.io/joshnh/pen/f2d2f034c97f4d6d89c47955c3b92f8d
 
+Blog post: http://joshnh.com/weblog/creating-lightweight-grid-system/
+
 _Note: make sure that you are using the `grid` and `grid__col--{width}` classes on block level elements._
