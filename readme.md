@@ -46,7 +46,7 @@ Example markup:
 </div>
 ~~~
 
-Live demo: http://codepen.io/joshnh/pen/f2d2f034c97f4d6d89c47955c3b92f8d
+Live demo: http://joshnh.com/grid-demo
 
 Blog post: http://joshnh.com/weblog/creating-lightweight-grid-system/
 
