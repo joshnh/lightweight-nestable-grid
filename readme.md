@@ -3,7 +3,7 @@ Lan Grid System
 
 __Lightweight & Nestable__
 
-![Lan Grid System Logo](http://joshnh.com/langrid/logo.png)
+![Lan Grid System Logo](http://joshnh.com/langrid/i/logo.png)
 
 http://joshnh.com/langrid
 
