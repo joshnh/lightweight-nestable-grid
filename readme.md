@@ -2,17 +2,23 @@
 
 #### Lightweight & Nestable
 
+<hr>
+
 __Website:__ http://joshnh.com/langrid
 
 __Live demo:__ http://joshnh.com/grid-demo
 
 __Blog post:__ http://joshnh.com/weblog/creating-lightweight-grid-system/
 
+<hr>
+
 ##### Usage:
 
 1. Set an element as a container by using the <code>grid</code> class.
 2. Declare columns using <a href="http://getbem.com/introduction/">BEM syntax</a> (<code>grid__col--{width}</code>).
 3. You're all done!
+4. 
+<hr>
 
 ##### Notes:
 
@@ -22,7 +28,8 @@ __Blog post:__ http://joshnh.com/weblog/creating-lightweight-grid-system/
 - Keep your grid abstracted by using dedicated elements to avoid style conflicts.
 - Read more about this grid system <a href="http://joshnh.com/weblog/creating-lightweight-grid-system/">here</a>.
 
-                
+<hr>
+
 ##### Example markup:
 
 ~~~
