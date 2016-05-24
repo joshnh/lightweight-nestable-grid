@@ -1,6 +1,8 @@
-## Lan Grid System
+![Lan Grid System Logo](http://joshnh.com/langrid/i/logo.png)
 
-#### Lightweight & Nestable
+### Lan Grid System
+
+##### Lightweight & Nestable
 
 <hr>
 
@@ -30,7 +32,7 @@ __Blog post:__ http://joshnh.com/weblog/creating-lightweight-grid-system/
 
 <hr>
 
-##### Example markup:
+##### Example:
 
 ~~~
 <div class="grid">
