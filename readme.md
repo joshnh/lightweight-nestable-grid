@@ -1,4 +1,4 @@
-# Lan Grid System
+## Lan Grid System
 
 #### Lightweight & Nestable
 
@@ -17,7 +17,7 @@ __Blog post:__ http://joshnh.com/weblog/creating-lightweight-grid-system/
 1. Set an element as a container by using the <code>grid</code> class.
 2. Declare columns using <a href="http://getbem.com/introduction/">BEM syntax</a> (<code>grid__col--{width}</code>).
 3. You're all done!
-4. 
+
 <hr>
 
 ##### Notes:
