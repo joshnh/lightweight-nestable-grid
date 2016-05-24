@@ -2,13 +2,11 @@
 
 #### Lightweight & Nestable
 
-Website: http://joshnh.com/langrid
+__Website:__ http://joshnh.com/langrid
 
-Live demo: http://joshnh.com/grid-demo
+__Live demo:__ http://joshnh.com/grid-demo
 
-Blog post: http://joshnh.com/weblog/creating-lightweight-grid-system/
-
-![Lan Grid System Logo](http://joshnh.com/langrid/i/logo.png)
+__Blog post:__ http://joshnh.com/weblog/creating-lightweight-grid-system/
 
 ##### Usage:
 
