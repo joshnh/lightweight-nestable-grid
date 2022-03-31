@@ -6,11 +6,7 @@
 
 <hr>
 
-__Website:__ http://joshnh.com/langrid
-
 __Live demo:__ http://joshnh.com/grid-demo
-
-__Blog post:__ http://joshnh.com/weblog/creating-lightweight-grid-system/
 
 <hr>
 
