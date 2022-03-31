@@ -1,6 +1,8 @@
-## Lan Grid System
+### Lan Grid System
 
-#### Lightweight & Nestable
+##### Lightweight & Nestable
+
+<hr>
 
 ##### Usage:
 
