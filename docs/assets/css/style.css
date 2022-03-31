@@ -275,7 +275,7 @@ ul li:before {
 body {
     background-color: #eaecee;
     background-position: 50% 50%;
-    background-image: url("i/background.png");
+    background-image: url("../images/background.png");
     padding: 0 1.5em;
 }
 .wrapper {
@@ -380,7 +380,7 @@ header {
     background-color: #518bd7;
 }
 .github-icon {
-    background-image: url('i/github.png');
+    background-image: url('../images/github.png');
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
