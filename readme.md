@@ -1,8 +1,6 @@
-### Lan Grid System
+## Lan Grid System
 
-##### Lightweight & Nestable
-
-<hr>
+#### Lightweight & Nestable
 
 ##### Usage:
 
@@ -18,7 +16,6 @@
 - White space between columns needs to be commented out in your markup.
 - To nest columns, simply use the <code>grid</code> class on each parent column.
 - Keep your grid abstracted by using dedicated elements to avoid style conflicts.
-- Read more about this grid system <a href="http://joshnh.com/weblog/creating-lightweight-grid-system/">here</a>.
 
 <hr>
 
