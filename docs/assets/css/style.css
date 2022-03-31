@@ -1,0 +1,458 @@
+/* Normalize */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+    display: block;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+}
+body {
+    margin: 0;
+}
+::-moz-selection {
+    background-color: hsla(0,0%,0%,.5);
+    color: #fff;
+    text-shadow: none;
+}
+::selection {
+    background-color: hsla(0,0%,0%,.5);
+    color: #fff;
+    text-shadow: none;
+}
+a:focus {
+    outline: thin dotted;
+}
+a:active,
+a:hover {
+    outline: 0;
+}
+strong {
+    font-weight: bold;
+}
+mark {
+    background: #ff6;
+}
+code,
+pre {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+pre {
+    white-space: pre;
+}
+img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: top;
+}
+figure {
+    margin: 0;
+}
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+button,
+input {
+    line-height: normal;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+}
+input[type="checkbox"],
+input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Lan Grid System */
+
+@media (min-width: 40em) { /* 40 × 16px = 640px */
+
+    .grid {
+        margin: 0 -0.75em;
+    }
+    [class*="grid__col--"] {
+        display: inline-block;
+        padding: 0 0.75em;
+        vertical-align: top;
+        -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
+                box-sizing: border-box; /* Enables the use of padding without breaking the grid */
+    }
+    .grid[class*="grid__col--"] {
+        margin: 0;
+        padding: 0;
+    }
+    .grid__col--20  { width: 20%; }
+    .grid__col--25  { width: 25%; }
+    .grid__col--30  { width: 30%; }
+    .grid__col--33  { width: 33%; }
+    .grid__col--40  { width: 40%; }
+    .grid__col--50  { width: 50%; }
+    .grid__col--60  { width: 60%; }
+    .grid__col--67  { width: 67%; }
+    .grid__col--70  { width: 70%; }
+    .grid__col--75  { width: 75%; }
+    .grid__col--80  { width: 80%; }
+    .grid__col--100 { width: 100%; }
+}
+
+/* Default Typography */
+
+html {
+    color: #474849;
+    font-family: "adelle", serif;
+    font-size: 50%;
+}
+@media (min-width: 25em) {
+
+    html {
+        font-size: 60%;
+    }
+}
+@media (min-width: 32.5em) {
+
+    html {
+        font-size: 80%;
+    }
+}
+@media (min-width: 40em) {
+
+    html {
+        font-size: 100%;
+    }
+}
+h1,
+h2,
+h3,
+h4 {
+    color: #8b8c8d;
+    font-family: "azo-sans-web", sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+h1 {
+    color: #474849;
+    font-size: 3em;
+    letter-spacing: -0.00625em;
+    line-height: 1;
+    margin-bottom: 0;
+}
+h2 {
+    color: #474849;
+    font-size: 1.75em;
+    font-weight: normal;
+    left: 0.0625em;
+    line-height: 1.714285714;
+    margin-bottom: 0;
+    position: relative;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 1.675rem;
+    font-weight: normal;
+    line-height: 1;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+h4 {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+p,
+pre {
+    font-size: 1em;
+    margin: 0 0 1.5rem;
+    line-height: 1.5;
+}
+code {
+    background-color: #fdfddf;
+}
+footer p {
+    margin-bottom: 0;
+}
+p a:link,
+p a:visited,
+footer p a:link,
+footer p a:visited,
+li a:link,
+li a:visited {
+    border-bottom: 2px solid #629ce8;
+    color: #234;
+    text-decoration: none;
+    -webkit-transition: .15s;
+            transition: .15s;
+}
+p a:hover,
+p a:focus,
+footer p a:hover,
+footer p a:focus,
+li a:hover,
+li a:focus {
+    color: #629ce8;
+}
+ol,
+ul {
+    font-size: 1em;
+    list-style: none;
+    margin: 0 0 3rem;
+    padding: 0;
+}
+ol {
+    counter-reset: item;
+}
+li {
+    line-height: 1.5;
+    margin: 0 0 1.5rem;
+    padding-left: 1.5rem;
+    position: relative;
+}
+ol li:before,
+ul li:before {
+    color: #629ce8;
+    left: 0;
+    margin-right: 0.75rem;
+    position: absolute;
+}
+ol li:before {
+    content: counter(item) ". ";
+    counter-increment: item;
+}
+ul li:before {
+    content: "•";
+}
+
+/* Typekit FOUT Control */
+
+.wf-loading p,
+.wf-loading li,
+.wf-loading h1,
+.wf-loading h2,
+.wf-loading h3,
+.wf-loading h4,
+.wf-loading .button {
+    visibility: hidden;
+    -webkit-transition: 0;
+            transition: 0;
+}
+
+/* General Styles */
+
+body {
+    background-color: #eaecee;
+    background-position: 50% 50%;
+    background-image: url("i/background.png");
+    padding: 0 1.5em;
+}
+.wrapper {
+    max-width: 60em;
+    margin: 0 auto;
+}
+header {
+    padding: 3.25em 0 2.75em;
+}
+.logo {
+    float: left;
+    margin-bottom: 3em;
+    margin-left: -0.375em;
+    margin-right: 1.5em;
+    margin-top: 0.125em;
+    max-width: 7.1875em ;
+}
+.content {
+    clear: both;
+    font-size: 1.25em;
+}
+.content .wrapper {
+    background-color: #fff;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.0625rem 0.125rem hsla(0,0%,0%,0.1);
+    max-width: 54rem;
+    padding: 3rem 3rem 1px;
+}
+.content .grid {
+    margin: -1.5rem -1.5rem 1.5rem;
+}
+.content p + .grid {
+    margin-top: 0;
+}
+.content .introduction + .grid {
+    margin-top: -1.5rem;
+}
+.content [class*="grid__col--"] {
+    padding: 1.5rem;
+}
+.grid__column__content {
+    background-color: #eaecee;
+    border-radius: 0.25rem;
+    height: 1.5rem;
+}
+@media (max-width: 40em) {
+
+    .divider {
+        background-color: #eaecee;
+        border-radius: 0.25rem;
+        height: 1.5rem;
+        margin: 0 0 3rem 0 !important;
+    }
+    .divider div {
+        display: none;
+    }
+    .grid__col--25 {
+        display: none;
+    }
+}
+.grid__column__content + .grid__column__content {
+    margin-top: 3rem;
+}
+.introduction {
+    color: #8b8c8d;
+    line-height: 1.6;
+    margin-bottom: 3rem;
+    font-size: 1.875rem;
+    font-style: italic;
+}
+.button {
+    background-color: #629ce8;
+    border-radius: 0.25rem;
+    color: #fff;
+    display: block;
+    font-family: "azo-sans-web", sans-serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    line-height: 1;
+    padding: 2.35rem 4.5rem 2.15rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    -webkit-transition: 0.15s;
+            transition: 0.15s;
+}
+@media (min-width: 40em) {
+
+    .button {
+        font-size: 0.75em;
+    }
+}
+@media (min-width: 57.5em) {
+
+    .button {
+        font-size: 1.25rem;
+    }
+}
+.button:hover,
+.button:focus {
+    background-color: #518bd7;
+}
+.github-icon {
+    background-image: url('i/github.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 1.5rem;
+    margin-right: 0.375rem;
+    position: relative;
+    top: -0.0625rem;
+    width: 1.5rem;
+    vertical-align: top;
+}
+@media (min-width: 40em) {
+
+    .github-icon {
+        display: none;
+    }
+}
+@media (min-width: 57.5em) {
+
+    .github-icon {
+        display: inline-block;
+    }
+}
+pre {
+    background-color: #444;
+    color: #fff;
+    line-height: 1.5;
+    margin: 0 -3rem 3rem;
+    overflow-x: auto;
+    padding: 3rem;
+}
+.pre-color-1 {
+    color: #e86262;
+}
+.pre-color-2 {
+    color: #e89c62;
+}
+.pre-color-3 {
+    color: #629ce8;
+}
+.pre-color-4 {
+    color: #9c9d9e;
+}
+.benefits {
+    list-style: none;
+}
+.benefits h4 {
+    color: #629ce8;
+    font-weight: normal;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+.benefits p {
+    margin-bottom: 0;
+}
+footer {
+    padding: 3em 0;
+    text-align: right;
+}
+footer span {
+    color: #8b8c8d;
+    padding: 0 0.25em;
+}
+.twitter-link {
+    border: 0 !important;
+    -webkit-transition: .15s;
+            transition: .15s;
+}
+.twitter-link:hover,
+.twitter-link:focus {
+    opacity: 0.75;
+}
+.twitter-link img {
+    max-width: 1.5em;
+}
