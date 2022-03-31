@@ -4,10 +4,6 @@
 
 <hr>
 
-__Live demo:__ http://joshnh.com/grid-demo
-
-<hr>
-
 ##### Usage:
 
 1. Set an element as a container by using the <code>grid</code> class.
