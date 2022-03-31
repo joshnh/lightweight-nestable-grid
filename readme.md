@@ -1,5 +1,3 @@
-![Lan Grid System Logo](http://joshnh.com/langrid/i/logo.png)
-
 ### Lan Grid System
 
 ##### Lightweight & Nestable
